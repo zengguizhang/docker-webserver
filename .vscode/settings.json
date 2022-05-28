@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "\"python.linting.flake8Enabled\"": "true",
+        "fstream": "cpp",
+        "list": "cpp",
+        "istream": "cpp",
+        "memory": "cpp",
+        "ostream": "cpp",
+        "streambuf": "cpp",
+        "system_error": "cpp",
+        "xstring": "cpp"
+    }
+}

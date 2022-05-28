@@ -1,0 +1,13 @@
+services:
+  web:
+    build: .
+    ports:
+      - "9006:9006"
+    depends_on: 
+      - mysql
+  mysql:
+    image: "mysql:5.7"
+    volumes:
+      - ./mysql:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_ROOT_PASSWORD: root
